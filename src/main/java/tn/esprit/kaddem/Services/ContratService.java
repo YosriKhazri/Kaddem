@@ -15,6 +15,7 @@ public class ContratService implements IContratService{
 
     @Override
     public Contrat addContrat(Contrat c) {
-        return cr.save(c);
+        return
+                cr.delete(c);
     }
 }
