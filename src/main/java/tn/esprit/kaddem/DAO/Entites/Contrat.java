@@ -33,4 +33,6 @@ public class Contrat implements Serializable{
     boolean archive;
     @Column(name = "montantC")
     float montantC;
+
+
 }
